@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  background-color: rgb(227, 255, 144);
+  overflow-x: hidden;
+}
+
+.viewport {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.25;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 200px);
+  grid-auto-rows: 200px;
+  gap: 10px;
+
+  width: max-content;
+  height: max-content;
+
+  animation: move 20s linear infinite;
+}
+
+.grid img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+.c {
+  position: relative;
+  z-index: 2;
+
+  width: 1000px;
+  min-height: 300vh;
+
+  margin: auto;
+  background: rgba(0, 0, 0, 0.164);
+  padding: 20px;
+}
+
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.img {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+}
+
+.img1 {
+    position: absolute;
+    top: 540px;
+    left: -30px;
+}
+
+.playermusic{
+    position:absolute;
+    top:1100px;
+    right:730px;
+    width:300px;
+}
+
+.TEXT1 {
+    position:absolute;
+    top: 90px;
+    left: 230px;
+    color: rgb(247, 255, 216);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.animation1 {
+    position:absolute;
+    top: 1390px;
+    left: 10px;
+}
+
+.heada{
+    position: absolute;
+    top: -40px;
+    left: 850px;
+}
+
+.TEXT2 {
+    position:absolute;
+    top: 500px;
+    left: 230px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(251, 241, 229);
+    font-size: xx-large;
+}
+
+.TEXT3 {
+    position:absolute;
+    top: 550px;
+    left: 230px;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.TEXT4 {
+    position: absolute;
+    top:1030px;
+    left:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue;
+    font-size: x-large;
+}
+
+.mp3 {
+    position: absolute;
+    top:930px;
+    left:0px;
+}
+
+.youtube1 {
+    position: absolute;
+    top:1200px;
+    left:0px;
+}
+
+.youtubelink {
+    position: absolute;
+    top:1260px;
+    left:100px;
+    color: rgb(113, 113, 187);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.ITCH {
+    position: relative;
+    top:1190px;
+    left:-20px;
+}
+
+.itchlink {
+    position: absolute;
+    top:1360px;
+    left:100px;
+    color: rgb(113, 113, 187);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.picture1 {
+    position: absolute;
+    top: 230px;
+    left: 270px;
+    width: 450px;
+
+}
+
+.gmail {
+    position: absolute;
+    top:1430px;
+    left:130px;
+    color: rgb(50, 50, 147);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.icm {
+    position: absolute;
+    top: 1780px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+}
+
+.copyright {
+    position: absolute;
+    top: 2190px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.spar {
+    position: absolute;
+    top: 1550px;
+    left: 50px;
+    color: rgb(61, 112, 157);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
