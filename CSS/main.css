@@ -7,8 +7,6 @@ body {
 .viewport {
   position: fixed;
   inset: 0;
-  overflow: hidden;
-
   z-index: 0;
   pointer-events: none;
   opacity: 0.25;
@@ -23,7 +21,7 @@ body {
   width: max-content;
   height: max-content;
 
-  animation: move 20s linear infinite;
+  animation: move 1s linear infinite;
 }
 
 .grid img {
@@ -70,6 +68,12 @@ h1 {
     position: absolute;
     top: 540px;
     left: -30px;
+}
+
+.img2 {
+    position: absolute;
+    top: 1250px;
+    left: 750px;
 }
 
 .playermusic{
@@ -202,4 +206,16 @@ h1 {
     left: 50px;
     color: rgb(61, 112, 157);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.RT {
+    position: absolute;
+    top: 1150px;
+    left: 700px;
+    color: rgb(15, 43, 119);
+}
+#gamecanvas {
+    position: absolute;
+    background-color: black;
+    top: 1190px;
+    left : 800px;
 }
